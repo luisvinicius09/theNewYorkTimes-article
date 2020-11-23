@@ -41,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
 - Twitter: [@luisvinicius09](https://twitter.com/luisvinicius09)
-- LinkedIn: [LinkedIn](https://linkedin.com/luis-vinicius)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-vinicius/)
 
 👤 **Author2**
 
@@ -53,7 +53,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/luisvinicius09/theNewYorkTimes-copy/issues).
 
 ## Show your support
 
