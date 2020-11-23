@@ -46,8 +46,8 @@ To get a local copy up and running follow these simple example steps.
 👤 **Author2**
 
 - GitHub: [@icebox827](https://github.com/icebox827)
-- Twitter: [@@heracles2k5](https://twitter.com/@heracles2k5)
-- LinkedIn: [LinkedIn](https://linkedin.com/Denislafontant)
+- Twitter: [@heracles2k5](https://twitter.com/@heracles2k5)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/denis-lafontant-37031439/)
 
 ## 🤝 Contributing
 
