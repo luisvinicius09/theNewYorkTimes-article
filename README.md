@@ -1,22 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# The New York Time - COPY
 
-> One paragraph statement about the project.
+> This is the project of our first week on Microverse.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This a copy of an article from The New York Times featuring the nav bar, header, body(img, text video) and a footer.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://luisvinicius09.github.io/theNewYorkTimes-copy/.)
 
 
 ## Getting Started
@@ -29,31 +28,26 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+- Text editor
+- Browser
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+- Open the html file
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@luisvinicius09](https://github.com/luisvinicius09)
+- Twitter: [@luisvinicius09](https://twitter.com/luisvinicius09)
+- LinkedIn: [LinkedIn](https://linkedin.com/luis-vinicius)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@icebox827](https://github.com/icebox827)
+- Twitter: [@@heracles2k5](https://twitter.com/@heracles2k5)
+- LinkedIn: [LinkedIn](https://linkedin.com/Denislafontant)
 
 ## 🤝 Contributing
 
@@ -70,7 +64,3 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
