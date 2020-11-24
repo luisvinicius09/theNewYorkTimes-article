@@ -201,9 +201,6 @@ aside section{
     float: left;
 }
 
-.flexy{
-  display: flex;
-}
 /* Grid System */
 .theory{
   display: block;
@@ -239,3 +236,17 @@ aside section{
   display: flex;
   justify-content: center;
 }
+.btn {
+    border-radius: 0.5em;
+    background-color: rgb(53, 53, 250);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .btn:hover {background: #eee;}
+  .info {color: dodgerblue;}
+  .articleFooter{
+    display: flex;
+    justify-content: space-between;
+  }
