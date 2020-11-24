@@ -239,3 +239,27 @@ aside section{
   display: flex;
   justify-content: center;
 }
+
+/* Footer */
+
+.footerWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapperOneContent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid grey;
+}
+
+.cardImage {
+  display: flex;
+}
