@@ -12,11 +12,25 @@ h1{
     position: relative;
 }
 
+h4{
+    color: grey;
+}
+
+.credit{
+    font-size: small;
+}
+
+
 .jumbotron{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;   
+    overflow: auto;
+}
+
+.jumbotron figure{
+    
 }
 
 img {
@@ -66,15 +80,11 @@ header {
   cursor: pointer;
 }
 
-.article {
+article {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   margin: 0 auto;
-}
-.text {
-  display: flex;
-  flex-direction: column;
 }
 
 .social .icons {
