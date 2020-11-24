@@ -1,41 +1,37 @@
 h1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;  
-    font-style: italic;
-    font-size: xx-large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 2em;
-    position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;  
+  font-style: italic;
+  font-size: xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2em;
+  position: relative;
 }
 
 h4{
-    color: grey;
+  color: grey;
 }
 
 .credit{
-    font-size: small;
+  font-size: small;
 }
-
-
 .jumbotron{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;   
-    overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;   
+  overflow: auto;
 }
-
 .jumbotron figure{
-    content: 'display : float';
+  content: 'display : float';
 }
-
 img {
-    height: auto;
-    max-width: 100%;
+  height: auto;
+  max-width: 100%;
 }
 
 body {
@@ -44,12 +40,14 @@ body {
 a {
   text-decoration: none;
 }
+
+/* Header */
 header {
   position: fixed;
   width: 100%;
   top: 0;
   background-color: #FFF;
-  z-index: 1;
+  z-index: 5;
 }
 .topBar {
   display: flex;
@@ -93,7 +91,7 @@ header {
 article {
   display: flex;
   flex-direction: column;
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   flex-wrap: wrap;
   flex-basis: 100%;
@@ -167,25 +165,21 @@ article span {
 #chat:hover {
   opacity: 25%;
 }
-
-
 section{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
 }
-
 .subscription{
-   text-align: center;
-   font-size: medium;
+  text-align: center;
+  font-size: medium;
 }
-
 ul{
-    list-style-type: none;
+  list-style-type: none;
 }
-
 hr{
-    color: grey;
-    border: solid;
+  color: grey;
+  border: solid;
 }
 
 aside {
@@ -205,3 +199,41 @@ aside section{
     float: left;
 }
 
+.flexy{
+  display: flex;
+}
+/* Grid System */
+.theory{
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+}
+.theoryWrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 0.2rem;
+  width: 100%;
+}
+.theoryImage {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.imageText {
+  font-size: 80%;
+  position: relative;
+  top: 128px;
+  margin-bottom: 125px;
+  z-index: 10;
+}
+.imageText span {
+  font-weight: bold;
+}
+.jumbo {
+  display: flex;
+  justify-content: center;
+}
