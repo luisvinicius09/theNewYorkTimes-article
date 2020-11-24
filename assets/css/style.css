@@ -268,8 +268,8 @@ aside section{
     cursor: pointer;
     display: inline-block;
   }
-  .btn:hover {background: #eee;}
-  .info {color: dodgerblue;}
+  .btn:hover {background: #7aa1bd;}
+  .info {color:#FFF}
   .articleFooter{
     display: flex;
     justify-content: space-between;
