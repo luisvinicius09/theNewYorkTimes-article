@@ -41,6 +41,9 @@ img {
 body {
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 header {
   position: fixed;
   width: 100%;
@@ -58,6 +61,7 @@ header {
   padding: 0.5rem;
 }
 .topCategory {
+  position: absolute;
   font-weight: bold;
   text-decoration: none;
   color: #000;
@@ -69,37 +73,86 @@ header {
 }
 .logo {
   width: 250px;
+  padding-top: 5px
 }
 .topButton {
   background-color: #567B95;
   border: none;
   color: #FFF;
   padding: 0.5rem;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: background-color 0.4s
 }
 .topButton:hover {
   cursor: pointer;
+  background-color: #759cb8;
 }
 
+/* Article */
 article {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 550px;
   margin: 0 auto;
 }
-
+article span {
+  position: relative;
+  top: 10px
+}
+.author {
+  color: #000;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.author:hover {
+  text-decoration: underline;
+  color: rgb(29, 29, 29);
+}
+.articleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  height: 40px;
+}
 .social .icons {
   background-color: #eee;
-  padding: 8px;
   margin: 5px;
-  border-radius: 50%
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.4s;
+  border: 1px solid #eee;
+  position: relative;
 }
-
+.icons:hover {
+  background-color: rgb(206, 206, 206);
+  border: 1px solid rgb(129, 129, 129);
+}
 .social .iconsImg {
-  width: 10px;
+  width: 17px;
+  position: relative;
+  left: 1px;
+  top: 3px
+}
+#curvedArrow {
+  transform: rotate(100deg);
 }
 #bookmark {
-  width: 20px;
+  position: relative;
+  top: 8px;
+  width: 25px;
+  transition: opacity 0.2s;
+}
+#bookmark:hover {
+  opacity: 50%;
 }
 #chat {
-  width: 20px;
+  position: relative;
+  top: 8px;
+  width: 25px;
+  transition: opacity 0.2s;
+}
+#chat:hover {
+  opacity: 25%;
 }
