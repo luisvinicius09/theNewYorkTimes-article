@@ -31,6 +31,8 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: #FFF;
+  z-index: 1;
 }
 .topBar {
   display: flex;
@@ -62,6 +64,14 @@ header {
 }
 .topButton:hover {
   cursor: pointer;
+}
+.social a {
+  width: 10px;
+  height: 10px;
+  background-color: grey;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%
 }
 
 .social .icons {
