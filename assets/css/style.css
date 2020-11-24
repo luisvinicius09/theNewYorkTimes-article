@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     text-align: center;
     font-style: italic;
@@ -13,3 +14,17 @@ h1{
    
 }
 
+=======
+body {
+  margin: 0;
+}
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.topIcon {
+  width: 18px;
+}
+>>>>>>> 178833314168b0d85a00c15c8032210c6501e45e
