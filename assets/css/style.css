@@ -30,7 +30,7 @@ h4{
 }
 
 .jumbotron figure{
-    
+    content: 'display : float';
 }
 
 img {
@@ -148,6 +148,7 @@ article span {
   opacity: 50%;
 }
 #chat {
+  width: 20px;
   position: relative;
   top: 8px;
   width: 25px;
@@ -155,4 +156,28 @@ article span {
 }
 #chat:hover {
   opacity: 25%;
+}
+
+
+section{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscription{
+   text-align: center;
+   font-size: medium;
+}
+
+ul{
+    list-style-type: none;
+}
+
+hr{
+    color: grey;
+    border: solid;
+}
+
+.flexy{
+    display: flex;
 }
