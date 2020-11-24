@@ -14,14 +14,23 @@ h1{
 
 h4{
     color: grey;
-   
 }
+
+.credit{
+    font-size: small;
+}
+
 
 .jumbotron{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 70%;   
+    overflow: auto;
+}
+
+.jumbotron figure{
+    
 }
 
 img {
