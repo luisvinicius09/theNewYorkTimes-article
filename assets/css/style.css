@@ -95,6 +95,16 @@ article {
   flex-direction: column;
   max-width: 550px;
   margin: 0 auto;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  justify-content: space-between;
+  position: relative;
+}
+article section{
+    flex-basis: 60%;
+}
+article aside{
+    flex-basis: 30%;
 }
 article span {
   position: relative;
@@ -178,6 +188,20 @@ hr{
     border: solid;
 }
 
-.flexy{
-    display: flex;
+aside {
+    position: relative;
+    top: 50%;
+    margin-top: -70rem;
+    width: 20%;
+    float: right;
 }
+aside section{
+    margin: 1rem;
+    padding: 1rem;
+}
+#editorsPick img {
+    width: 70px;
+    padding: 0.5rem;
+    float: left;
+}
+
