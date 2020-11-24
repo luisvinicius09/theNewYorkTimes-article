@@ -65,15 +65,31 @@ header {
 .topButton:hover {
   cursor: pointer;
 }
-.social a {
-  width: 10px;
-  height: 10px;
+
+.article {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.social .icons {
   background-color: grey;
-  padding: 5px;
+  padding: 8px;
   margin: 5px;
   border-radius: 50%
 }
 
-.social .icons {
+.social .iconsImg {
   width: 10px;
+}
+#bookmark {
+  width: 20px;
+}
+#chat {
+  width: 20px;
 }
