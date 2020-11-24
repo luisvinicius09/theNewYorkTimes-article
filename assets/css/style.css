@@ -267,10 +267,37 @@ aside section{
     font-size: 16px;
     cursor: pointer;
     display: inline-block;
-  }
-  .btn:hover {background: #7aa1bd;}
-  .info {color:#FFF}
-  .articleFooter{
+}
+.btn:hover {background: #7aa1bd;}
+.info {color:#FFF}
+.articleFooter{
+display: flex;
+justify-content: space-between;
+}
+.usefullLinks{
+display: flex;
+justify-content: space-between;
+padding-left: 30px;
+}
+
+.usefullLinks img{
+    width: 180px;
+}
+
+.homepage{
+    color: #759cb8;
+    padding-right: 30px;
+}
+.links{
     display: flex;
+    padding-top: 2rem; 
     justify-content: space-between;
-  }
+}
+.links section{
+    padding: 1rem;
+}
+.links a{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
