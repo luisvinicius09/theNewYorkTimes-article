@@ -249,48 +249,49 @@
     <!--Footer of the page-->
     <footer>
       <div class="footerWrapper">
-        <div>
+        <div class="columnOne">
           <div class="wrapperOne">
             <hr>
             <div class="wrapperTitle">
               <p style="margin-right: 100px;">Suggested newsletters for you</p>
-              <p>Don't show me this again</p>
+              <a href=""><p id="showing">Don't show me this again</p></a>
             </div>        
+
             <div class="wrapperOneContent">
               <div class="card">
                 <a href="">
                   <div>
                     <img class="cardImage" src="assets/img/24greenberg-sub-square640.jpg" alt="">
-                    <a href="">+</a>
+                    <a class="plusIcon" href="">+</a>
                   </div>
-                  <p>AS NEEDED</p>
-                  <h4>Breaking News</h4>
+                  <p class="cardPara">AS NEEDED</p>
+                  <h4 class="cardNews">Breaking News</h4>
                   <p>Alerts when import news breaks around the world</p>
-                  <a href="">See the latest</a>
+                  <a href="https://static.nytimes.com/email-content/NA_sample.html" class="cardFooter">See the latest</a>
                 </a>
               </div>
               <div class="card">
                 <a href="">
                   <div>
                     <img class="cardImage" src="assets/img/23sp-smallbiz-support-square640-v4.jpg" alt="">
-                    <a href="">+</a>
+                    <a class="plusIcon" href="">+</a>
                   </div>
-                  <p>AS NEEDED</p>
-                  <h4>Breaking News</h4>
-                  <p>Alerts when import news breaks around the world</p>
-                  <a href="">See the latest</a>
+                  <p class="cardPara">WEEKLY</p>
+                  <h4 class="cardNews">At Home</h4>
+                  <p>Our best suggestions for how to live a full and cultered life during the pandemic, at home.</p>
+                  <a href="https://static.nytimes.com/email-content/AH_sample.html" class="cardFooter">See the latest</a>
                 </a>
               </div>
               <div class="card">
-                <a href="">
+                <a  href="">
                   <div>
                     <img class="cardImage" src="assets/img/merlin_168689538_6f18818c-f64c-4a86-900e-d7c0c9d627e0-square640.jpg" alt="">
-                    <a href="">+</a>
+                    <a class="plusIcon" href="">+</a>
                   </div>
-                  <p>AS NEEDED</p>
-                  <h4>Breaking News</h4>
-                  <p>Alerts when import news breaks around the world</p>
-                  <a href="">See the latest</a>
+                  <p class="cardPara">DAILY</p>
+                  <h4 class="cardNews">The Morning</h4>
+                  <p>Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you though what's happening - and why it matters.</p>
+                  <a href="https://static.nytimes.com/email-content/NN_sample.html" class="cardFooter">See the latest</a>
                 </a>
               </div>
             </div>
@@ -299,20 +300,116 @@
           <hr>
           <div class="wrapperTwo">
             <div class="wrapperTitle">
-              <p></p>
+              <a  href="https://www.nytimes.com/section/science/space"><p id="extraTitle">More in Space and Astronomy</p></a>
+            </div>
+
+            <div class="gridSystem">
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/23CHINAMOON3-threeByTwoSmallAt2X.jpg" alt="">
+                  <p class="gridCaption">Tingshu Wang/Reuters</p>
+                  <p class="gridTitle">China Launches Moon Mission to Bring Back Lunar Rocks</p>
+                  <p class="gridCaption">7h ago</p>
+                </a>
+              </div>
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/Nawaz1-threeByTwoSmallAt2X.jpg" alt="">
+                  <p class="gridCaption">K.C. Wilsey, via Alamy</p>
+                  <p class="gridTitle">Arecibo Observatory, a Great Eye on the Cosmos, Is Going Dark</p>
+                  <p class="gridCaption">Nov. 19</p>
+                </a>
+              </div>
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/18ihw-Mazzucato-threeByTwoSmallAt2X-v2.jpg" alt="">
+                  <p class="gridCaption">Audemars Piguet</p>
+                  <p class="gridTitle">Audemars Piguet’s Spiraling New Watch Museum Opens Its Doors                </p>
+                </a>
+              </div>
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/merlin_180070305_4ba184d7-2b5e-43a3-a54c-7236af58744d-threeByTwoSmallAt2X.jpg" alt="Astronauts image">
+                  <p class="gridCaption">Cj Gunther/EPA, via Shutterstock</p>
+                  <p class="gridTitle">SpaceX’s ‘Resilience’ Lifts 4 Astronauts Into New Era of Spaceflight</p>
+                  <p class="gridCaption">Nov. 16</p>
+                </a>
+              </div>
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/11SCI-BIOMINING-threeByTwoSmallAt2X.jpg" alt="Microbes image">
+                  <p class="gridCaption">Rosa Santomartino/University of Edinburgh</p>
+                  <p class="gridTitle">These Microbes May Help Future Martians and Moon People Mine Metals</p>
+                  <p class="gridCaption">Nov. 11</p>
+                </a>
+              </div>
+              <div class="gridCard">
+                <a href="">
+                  <img class="gridImage" src="assets/img/31SCI-ISS-FEATURE13-threeByTwoSmallAt2X.jpg" alt="NASA image">
+                  <p class="gridCaption">NASA</p>
+                  <p class="gridTitle">How the Space Station Became a Base to Launch Humanity’s Future</p>
+                  <p class="gridCaption">Nov. 2</p>
+                </a>
+              </div>
+            </div>
+            <hr>
+            <div class="wrapperThree">
+              <div class="wrapperTitle">
+                <p style="margin-right: 100px;">Editors' Picks</p>
+              </div>   
+              <div class="gridSystem">
+                <div class="gridCard">
+                  <a href="">
+                    <img class="gridImage" src="assets/img/Brussels-Sprouts-threeByTwoSmallAt2X-v2.jpg" alt="NASA image">
+                    <p class="gridCaption">Andrew Scrivani for The New York Times</p>
+                    <p class="gridTitle">12 Easy Recipes for a Thanksgiving Beginner</p>
+                    <p class="gridCaption">Nov. 12</p>
+                  </a>
+                </div>
+                <div class="gridCard">
+                  <a href="">
+                    <img class="gridImage" src="assets/img/Nawaz1-threeByTwoSmallAt2X.jpg" alt="NASA image">
+                    <p class="gridCaption">Andrew Testa</p>
+                    <p class="gridTitle">He Reported on Pakistan’s Volatile Politics. Then He Became a Story Himself.</p>
+                    <p class="gridCaption">Nov. 17</p>
+                  </a>
+                </div>
+                <div class="gridCard">
+                  <a href="">
+                    <img class="gridImage" src="assets/img/oakImage-1605132377354-threeByTwoSmallAt2X.png" alt="NASA image">
+                    <p class="gridCaption">Yann Bastard</p>
+                    <p class="gridTitle">Your Guide to Black Friday Shopping</p>
+                    <p class="gridCaption">Nov. 18</p>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="wrapperThree">
-          <hr>
+        <div class="wrapperFour">
+          <hr style="border: 1px solid #000">
           <h3>Most Popular</h3>
           <hr>
-          <a href="">A weird Monolith Is Found in the Utah Desert</a>
+          <a href="" class="list">A weird Monolith Is Found in the Utah Desert</a>
           <hr>
-          <a href="">‘Saved by the Bell’ Review: This Time, It’s Actually All Right</a>
+          <a href="" class="list">‘Saved by the Bell’ Review: This Time, It’s Actually All Right</a>
           <hr>
-          <a href="">What Not to Buy on Black Friday</a>
+          <a href="" class="list">What Not to Buy on Black Friday</a>
+          <hr>
+          <a href="" class="list">The Brilliant, Bitter, Unlikable Scion of an American Political Dynasty</a>
+          <hr>
+          <a href="" class="list">$15,000 Fine After Secret Hasidic Wedding Draws Thousands of Guests</a>
+          <hr>
+          <a href="" class="list">Late Night Won’t Let Trump’s Legal Team Forget Sidney Powell So Easily</a>
+          <hr>
+          <a href="" class="list">Watching What Goes Down Our Toilets Could Help Keep a Pandemic From Spiraling Out of Control</a>
+          <hr>
+          <a href="" class="list">What We Know About Sidney Powell, the Lawyer Behind Wild Voting Conspiracy Theories</a>
+          <hr>
+          <a href="" class="list">Why Were Canadians Warned Not to Let Moose Lick Their Cars?</a>
+          <hr>
+          <a href="" class="list">Amnesia Grips a Bosnian Spa That Served as a Rape Camp</a>
         </div>
       </div>
       <div class="usefullLinks">
