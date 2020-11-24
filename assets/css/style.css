@@ -6,7 +6,20 @@ body {
   justify-content: space-between;
   margin: 1rem;
 }
-
+.topCategory {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000
+}
+.topCategory:hover {
+  text-decoration: underline;
+}
 .topIcon {
   width: 18px;
+}
+
+.topButton {
+  background-color: #567B95;
+  border: none;
+  color: #FFF;
 }
