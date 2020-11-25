@@ -1,3 +1,9 @@
+* {
+  font-family: 'Castoro', serif;
+}
+ul{
+  list-style-type: none;
+}
 h1{
   display: block;
   margin-left: auto;
@@ -8,7 +14,7 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin-top: 2em;
+  margin-top: 3em;
   position: relative;
 }
 
@@ -52,7 +58,7 @@ header {
 .topBar {
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  margin: 10px;
 }
 .topIcon {
   width: 18px;
@@ -126,10 +132,10 @@ article span {
 .social {
   height: 40px;
 }
-.social .icons {
+.icons {
   background-color: #eee;
   margin: 5px;
-  padding: 10px;
+  padding: 8px 10px;
   border-radius: 50%;
   transition: background-color 0.4s;
   border: 1px solid #eee;
@@ -176,25 +182,43 @@ section{
   text-align: center;
   font-size: medium;
 }
-ul{
-  list-style-type: none;
-}
-hr{
+
+.subscription hr{
   color: grey;
   border: solid;
+  width: 80px;
+  border: 1px solid rgb(182, 182, 182);
+}
+.subscription a {
+  color:#567B95;
+  transition: opacity 0.3s;
+}
+.subscription a:hover {
+  opacity: 70%;
 }
 
+/* Aside section */
 aside {
     position: relative;
     top: 50%;
     margin-top: -70rem;
     width: 20%;
     float: right;
+    margin-right: 3rem;
 }
 aside section{
     margin: 1rem;
     padding: 1rem;
 }
+#editorsPick a {
+  color: #000;
+  font-size: medium;
+  transition: opacity 0.3s;
+}
+#editorsPick a:hover {
+  opacity: 70%;
+}
+
 #editorsPick img {
     width: 70px;
     padding: 0.5rem;
@@ -241,26 +265,23 @@ aside section{
   cursor: pointer;
 }
 .btn {
-    border-radius: 0.5em;
-    background-color:#567B95;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border:none;
-    display: inline-block;
-    transition: background 0.3s;
+  border-radius: 0.5em;
+  background-color:#567B95;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border:none;
+  display: inline-block;
+  transition: background 0.3s;
   }
-  .btn:hover {background: #7aa1bd;}
-  .info {color:#FFF}
-  .articleFooter{
-    display: flex;
-    justify-content: space-between;
-  }
+.btn:hover {background: #7aa1bd;}
+.info {color:#FFF}
+.articleFooter{
+  display: flex;
+  justify-content: space-between;
+}
 
 /* Footer */
-footer * {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
 footer hr {
   border: 1px solid #000
 }
@@ -374,7 +395,7 @@ padding-left: 30px;
 #extraTitle {
   margin-right: 100px;
   color: #000;
-  transitio: opacity 0.3s;
+  transition: opacity 0.3s;
 }
 #extraTitle:hover{
   opacity: 70%;
