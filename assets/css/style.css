@@ -85,6 +85,19 @@ aside section {
   margin-right: 30px;
 }
 
+.links a {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  color: #000;
+  transition: opacity 0.3s;
+}
+
+.subscription a {
+  color: #567b95;
+  transition: opacity 0.3s;
+}
+
 .footerMenu a:hover {
   opacity: 60%;
   text-decoration: underline;
@@ -129,22 +142,9 @@ article span {
   color: #000;
 }
 
-.links a {
-  display: flex;
-  flex-direction: column;
-  font-size: medium;
-  color: #000;
-  transition: opacity 0.3s;
-}
-
 .links a:hover {
   opacity: 60%;
   text-decoration: underline;
-}
-
-.subscription a {
-  color: #567b95;
-  transition: opacity 0.3s;
 }
 
 .subscription a:hover {
