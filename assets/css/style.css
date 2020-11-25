@@ -341,10 +341,12 @@ footer hr {
 }
 .btn:hover {background: #7aa1bd;}
 .info {color:#FFF}
+
 .articleFooter{
 display: flex;
 justify-content: space-between;
 }
+
 .usefullLinks{
 display: flex;
 justify-content: space-between;
@@ -357,20 +359,27 @@ padding-left: 30px;
 
 .homepage{
     color: #759cb8;
-    padding-right: 30px;
+    order: 1;
 }
 .links{
     display: flex;
     padding-top: 2rem; 
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .links section{
     padding: 1rem;
 }
+
+.links section h4{
+  font-weight: bold;
+  color: #000;
+}
 .links a{
     display: flex;
     flex-direction: column;
-    font-size: small;
+    font-size: medium;
+    color: #000;
 }
 .cardFooter {
   color:  #567B95;
@@ -441,4 +450,15 @@ padding-left: 30px;
 }
 .list:hover {
   opacity: 60%;
+}
+
+.footerMenu{
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerMenu a{
+  font-size: x-small;
+  margin-bottom: 2rem;
+  color: #000;
 }
