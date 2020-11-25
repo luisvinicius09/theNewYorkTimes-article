@@ -214,30 +214,30 @@ section{
 
 /* Aside section */
 aside {
-    position: relative;
-    top: 50%;
-    margin-top: -70rem;
-    width: 20%;
-    float: right;
-    margin-right: 4rem;
+  position: relative;
+  top: 50%;
+  margin-top: -70rem;
+  width: 20%;
+  float: right;
+  margin-right: 4rem;
 }
 aside section{
-    margin: 1rem;
-    padding: 1rem;
+  margin: 1rem;
+  padding: 1rem;
 }
 #editorsPick a {
-  color: #000;
-  font-size: medium;
-  transition: opacity 0.3s;
+color: #000;
+font-size: medium;
+transition: opacity 0.3s;
 }
 #editorsPick a:hover {
-  opacity: 70%;
-  text-decoration: underline;
+opacity: 70%;
+text-decoration: underline;
 }
 #editorsPick img {
-    width: 80px;
-    padding: 0.5rem;
-    float: left;
+  width: 80px;
+  padding: 0.5rem;
+  float: left;
 }
 
 /* Grid System */
