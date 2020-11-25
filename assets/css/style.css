@@ -234,7 +234,6 @@ aside section{
   opacity: 70%;
   text-decoration: underline;
 }
-
 #editorsPick img {
     width: 80px;
     padding: 0.5rem;
@@ -302,7 +301,6 @@ aside section{
 footer hr {
   border: 1px solid #000
 }
-
 .footerWrapper {
   display: flex;
   justify-content: center;
@@ -329,7 +327,6 @@ footer hr {
   display: flex;
   justify-content: center;
 }
-
 .card {
   border: 1px solid grey;
   max-width: 280px;
@@ -358,45 +355,9 @@ footer hr {
 }
 .btn:hover {background: #7aa1bd;}
 .info {color:#FFF}
-
 .articleFooter{
-display: flex;
-justify-content: space-between;
-}
-
-.usefullLinks{
-display: flex;
-justify-content: space-between;
-padding-left: 30px;
-}
-
-.usefullLinks img{
-    width: 180px;
-}
-
-.homepage{
-    color: #759cb8;
-    order: 1;
-}
-.links{
-    display: flex;
-    padding-top: 2rem; 
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.links section{
-    padding: 1rem;
-}
-
-.links section h4{
-  font-weight: bold;
-  color: #000;
-}
-.links a{
-    display: flex;
-    flex-direction: column;
-    font-size: medium;
-    color: #000;
+  display: flex;
+  justify-content: space-between;
 }
 .cardFooter {
   color:  #567B95;
@@ -460,6 +421,49 @@ padding-left: 30px;
 .wrapperFour hr {
   border: 1px solid rgb(196, 196, 196);
 }
+
+/* Usefull links */
+.usefullLinks{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+
+.usefullLinks img{
+    width: 180px;
+}
+.usefullLinks section {
+  margin-right: 1rem;
+}
+.homepage{
+  color: #759cb8;
+  order: 1;
+}
+.links{
+  display: flex;
+  padding-top: 2rem; 
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.links section{
+  padding: 1rem;
+}
+
+.links section h4{
+  font-weight: bold;
+  color: #000;
+}
+.links a{
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  color: #000;
+  transition: opacity 0.3s;
+}
+.links a:hover {
+  opacity: 60%;
+  text-decoration: underline;
+}
 .list {
   color: #000;
   font-weight: 700;
@@ -480,4 +484,9 @@ padding-left: 30px;
   font-size: x-small;
   margin-bottom: 2rem;
   color: #000;
+  transition: opacity 0.4s;
+}
+.footerMenu a:hover {
+  opacity: 60%;
+  text-decoration: underline;
 }
