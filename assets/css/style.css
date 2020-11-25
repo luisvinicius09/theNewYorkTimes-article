@@ -56,7 +56,6 @@ section {
   content: 'display : float';
 }
 
-/* Aside section */
 aside {
   position: relative;
   top: 50%;
@@ -183,7 +182,6 @@ article span {
   float: left;
 }
 
-/* Header */
 header {
   position: fixed;
   width: 100%;
@@ -226,10 +224,12 @@ header {
   background-color: #567b95;
   border: none;
   color: #fff;
-  padding: 0.5rem;
+  padding: 8px;
   border-radius: 3px;
   font-weight: bold;
   transition: background-color 0.4s;
+  position: relative;
+  top: 5px;
 }
 
 .topButton:hover {
@@ -237,8 +237,11 @@ header {
   background-color: #759cb8;
 }
 
+<<<<<<< HEAD
+=======
 /* Article */
 
+>>>>>>> ae75e2c79d24da856d37bb3a4df2212e399c0e38
 footer hr {
   border: 1px solid #000;
 }
@@ -297,7 +300,7 @@ footer hr {
   top: 3px;
 }
 
-#curvedArrow {
+.curvedArrow {
   transform: rotate(100deg);
 }
 
@@ -344,7 +347,6 @@ footer hr {
   text-decoration: underline;
 }
 
-/* Grid System */
 .theory {
   display: block;
   margin: auto;
@@ -385,8 +387,6 @@ footer hr {
   display: flex;
   justify-content: center;
 }
-
-/* Footer */
 
 .footerWrapper {
   display: flex;
