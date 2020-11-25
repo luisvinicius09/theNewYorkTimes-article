@@ -4,9 +4,9 @@
 
 > This is the project of our first week on Microverse.
 
-![screenshot](./app_screenshot.png)
-![screenshot](./app_screenshot2.png)
-![screenshot](./app_screenshot3.png)
+![screenshot](./app_screenshot.PNG)
+![screenshot](./app_screenshot2.PNG)
+![screenshot](./app_screenshot3.PNG)
 
 This a copy of an article from The New York Times featuring the nav bar, header, body(img, text video) and a footer.
 
