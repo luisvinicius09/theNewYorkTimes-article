@@ -71,6 +71,79 @@ aside section {
   padding: 1rem;
 }
 
+.subscription a {
+  color: #567b95;
+  transition: opacity 0.3s;
+}
+
+.subscription a:hover {
+  opacity: 70%;
+}
+
+.usefullLinks {
+  display: flex;
+  justify-content: center;
+  padding-left: 30px;
+  margin: 0 auto;
+}
+
+.usefullLinks img {
+  width: 180px;
+}
+
+.usefullLinks section {
+  margin-right: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.links section {
+  padding: 1rem;
+}
+
+.links section h4 {
+  font-weight: bold;
+  color: #000;
+}
+
+.links a {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  color: #000;
+  transition: opacity 0.3s;
+}
+
+.links a:hover {
+  opacity: 60%;
+  text-decoration: underline;
+}
+
+.footerMenu {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+}
+
+.footerMenu a {
+  font-size: x-small;
+  margin-bottom: 2rem;
+  color: #000;
+  transition: opacity 0.4s;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+.footerMenu a:hover {
+  opacity: 60%;
+  text-decoration: underline;
+}
+
+
 #editorsPick a {
   color: #000;
   font-size: medium;
@@ -78,8 +151,8 @@ aside section {
 }
 
 #editorsPick a:hover {
-opacity: 70%;
-text-decoration: underline;
+  opacity: 70%;
+  text-decoration: underline;
 }
 
 #editorsPick img {
@@ -262,15 +335,6 @@ footer hr {
   border: 1px solid rgb(182, 182, 182);
 }
 
-.subscription a {
-  color: #567b95;
-  transition: opacity 0.3s;
-}
-
-.subscription a:hover {
-  opacity: 70%;
-}
-
 .randomLinks {
   color: rgb(122, 122, 122);
   transition: opacity 0.2s;
@@ -321,18 +385,6 @@ footer hr {
 .jumbo {
   display: flex;
   justify-content: center;
-}
-
-.btn {
-  border-radius: 0.5em;
-  background-color: #567b95;
-  font-size: 16px;
-  cursor: pointer;
-  border:none;
-  display: inline-block;
-  transition: background 0.3s;
-  margin: 1rem;
-  color: #fff;
 }
 
 /* Footer */
@@ -397,10 +449,13 @@ footer hr {
 .btn {
   border-radius: 0.5em;
   background-color: #567b95;
-  padding: 14px 28px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
   display: inline-block;
+  transition: background 0.3s;
+  margin: 1rem;
+  color: #fff;
 }
 
 .btn:hover {
@@ -504,21 +559,6 @@ footer hr {
   margin-top: 20px;
 }
 
-.usefullLinks {
-  display: flex;
-  justify-content: center;
-  padding-left: 30px;
-  margin: 0 auto;
-}
-
-.usefullLinks img {
-    width: 180px;
-}
-
-.usefullLinks section {
-  margin-right: 1rem;
-}
-
 .homepage {
   color: #000;
   order: 1;
@@ -527,34 +567,6 @@ footer hr {
 
 .homepage:hover {
   opacity: 70%;
-  text-decoration: underline;
-}
-
-.links {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.links section {
-  padding: 1rem;
-}
-
-.links section h4 {
-  font-weight: bold;
-  color: #000;
-}
-
-.links a {
-  display: flex;
-  flex-direction: column;
-  font-size: medium;
-  color: #000;
-  transition: opacity 0.3s;
-}
-
-.links a:hover {
-  opacity: 60%;
   text-decoration: underline;
 }
 
@@ -568,24 +580,4 @@ footer hr {
 
 .list:hover {
   opacity: 60%;
-}
-
-.footerMenu {
-  display: flex;
-  /* justify-content: space-around; */
-  justify-content: center;
-}
-
-.footerMenu a {
-  font-size: x-small;
-  margin-bottom: 2rem;
-  color: #000;
-  transition: opacity 0.4s;
-  margin-top: 10px;
-  margin-right: 30px;
-}
-
-.footerMenu a:hover {
-  opacity: 60%;
-  text-decoration: underline;
 }
