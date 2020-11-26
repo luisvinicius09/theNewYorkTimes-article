@@ -259,11 +259,11 @@
         <div class="formContainer">
           <div class="formQuestion">
             <label for="name">Name </label>
-            <input type="text" name="user_name" id="name" required>
+            <input type="text" name="user_name" id="name" required maxlength="20">
           </div>
           <div class="formQuestion">
             <label for="email">Email </label>
-            <input type="email" name="user_email" id="email" required>
+            <input type="email" name="user_email" id="email" required maxlength="20">
           </div>
           <div class="formQuestion">
             <label for="comment">Comment </label>
@@ -279,8 +279,8 @@
             </select>
           </div>
           <div class="checkbox">
+            <label style="position: relative; left: 9px; top: 5px; font-size: large">I want to subscribe to the newsletter</label>
             <input type="checkbox" style="margin: 0 5px 0 0;">
-            <span style="position: relative; left: 9px; top: 5px; font-size: large">I want to subscribe to the newsletter</span>
           </div>
           <div class="submit">
             <button type="Submit">Send</button>
