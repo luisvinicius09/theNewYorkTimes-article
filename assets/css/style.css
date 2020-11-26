@@ -92,6 +92,7 @@ footer hr {
 .footerMenu {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .footerMenu a {
@@ -602,4 +603,28 @@ header {
 
 .list:hover {
   opacity: 60%;
+}
+
+.fixedFooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  max-height: 40px;
+  z-index: 1000;
+}
+
+.fixedFooter a {
+  margin: 0;
+  padding: 10px;
+  color: #000;
+  transition: opacity 0.4s;
+}
+
+.fixedFooter a:hover {
+  opacity: 70%;
+  text-decoration: underline;
 }
