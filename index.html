@@ -165,8 +165,8 @@
           </div>
         </section>
       <article>
+        <h4 style="color: #fff; margin: 0; padding: 0;">-</h4>
           <section>
-            <h4 style="color: #fff; margin: 0; padding: 0;">-</h4>
             <p class="paragraph">Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
             <p class="paragraph">Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>
             <p class="paragraph">“With nature, you have to be lucky,” he said. “Apparently we have been lucky.”</p>
@@ -266,14 +266,15 @@
           </div>
           <div class="formQuestion">
             <label for="comment">Comment </label>
-            <textarea type="text" placeholder="Type your comment here..." name="user_comment" id="question" maxlength="250" required></textarea>  
+            <textarea placeholder="Type your comment here..." name="user_comment" id="comment" maxlength="250" required></textarea>  
           </div>
           <div class="formQuestion">
             <label for="question">What is your overall opinion about this article? </label>
-            <select class="selectInput" name="user_question"required>
-              <option>Positive</option>
-              <option>Negative</option>
-              <option>Neutral</option>
+            <select class="selectInput" name="user_question" required>
+              <option value="" selected disabled>Select an option</option>
+              <option value="1">Positive</option>
+              <option value="2">Negative</option>
+              <option value="3">Neutral</option>
             </select>
           </div>
           <div class="checkbox">

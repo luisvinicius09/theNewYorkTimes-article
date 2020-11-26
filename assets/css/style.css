@@ -651,7 +651,6 @@ header {
 
 .formQuestion {
   max-width: 600px;
-  display: flex;
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
@@ -677,6 +676,14 @@ header {
   padding: 5px;
 }
 
+.checkbox input {
+  transform: scale(2);
+  position: relative;
+  left: 6px;
+  top: 6px;
+  cursor: pointer;
+}
+
 .formQuestion input:hover {
   background-color: rgb(241, 233, 233);
   border: 1px solid;
@@ -694,14 +701,6 @@ header {
 
 .checkbox {
   margin: 8px 0 8px 0;
-}
-
-.checkbox input {
-  transform: scale(2);
-  position: relative;
-  left: 6px;
-  top: 6px;
-  cursor: pointer;
 }
 
 .submit {
