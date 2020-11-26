@@ -253,32 +253,36 @@
             </div>
           </div>
       </article>
-      <form action="">
-        <div class="">
-          <label for="name">Name</label>
-          <input type="text" maxlength="20" required>
-        </div>
-        <div class="">
-          <label for="email">Email</label>
-          <input type="email" maxlength="20" required>
-        </div>
-        <div class="">
-          <label for="comment">Comment</label>
-          <input type="text" placeholder="Type your comment here..." maxlength="250" required>
-        </div>
-        <div class="">
-          <label for="question">What is your overall opinion about this article?</label>
-          <select required>
-            <option>Positive</option>
-            <option>Negative</option>
-            <option>Neutral</option>
-          </select>
-        </div>
-        <div class="">
-          <input type="checkbox">I want to subscribe to the newsletter
-        </div>
-        <div>
-          <button type="Submit">Send</button>
+      <h3 style="max-width: 600px; margin: 0 auto;" class="formHeader">Send us a messsage</h3>
+      <form>
+        <div class="formContainer">
+          <div class="formQuestion">
+            <label for="name">Name </label>
+            <input type="text" name="user_name" id="name" required>
+          </div>
+          <div class="formQuestion">
+            <label for="email">Email </label>
+            <input type="email" name="user_email" id="email" required>
+          </div>
+          <div class="formQuestion">
+            <label for="comment">Comment </label>
+            <textarea type="text" placeholder="Type your comment here..." name="user_comment" id="question" maxlength="250" required></textarea>  
+          </div>
+          <div class="formQuestion">
+            <label for="question">What is your overall opinion about this article? </label>
+            <select class="selectInput" name="user_question"required>
+              <option>Positive</option>
+              <option>Negative</option>
+              <option>Neutral</option>
+            </select>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" style="margin: 0 5px 0 0;">
+            <span style="position: relative; left: 9px; top: 5px; font-size: large">I want to subscribe to the newsletter</span>
+          </div>
+          <div class="submit">
+            <button type="Submit">Send</button>
+          </div>
         </div>
       </form>
     </main>
