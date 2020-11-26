@@ -232,6 +232,28 @@
               Subscribe
             </a>
           </p>
+          
+           <!--Comment Form-->
+          <div class="form">
+            <h3>Please comment in the form below</h3>
+            <form action="" method="POST">
+                <label for="name">Name :</label>
+                <input type="text " id="name" name="user_name" placeholder="Name">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                <br>
+                <label for="comment">Comment :</label>
+                <textarea name="comment" id="comment" cols="80" rows="10"></textarea>
+                <br>
+                <h4>What is your overall opinion about this article</h4>
+                <input type="radio" id="positive" name="feedback" value="positive">
+                <label for="positive">Positive</label><br>
+                <input type="radio" id="negative" name="feedback" value="negative">
+                <label for="negative">Negative</label><br>
+                <input type="radio" id="neutral" name="feedback" value="neutral">
+                <label for="neutral">Neutral</label> 
+              </form>
+          </div>
           <div class="articleFooter" style="max-width: 600px;">
             <button class="btn" type="button">READ 615 COMMENTS</button>
             <div class="social" style="margin: 2rem">
@@ -251,10 +273,6 @@
           </div>
       </article>
     </main>
-    <!--Comment Form-->
-    <form action="" method="POST">
-      
-    </form>
     <!--Footer of the page-->
     <footer>
       <div class="footerWrapper">
