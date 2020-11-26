@@ -165,18 +165,18 @@ article span {
   margin-right: 1rem;
 }
 
-#editorsPick a {
+.editorsPick a {
   color: #000;
   font-size: medium;
   transition: opacity 0.3s;
 }
 
-#editorsPick a:hover {
+.editorsPick a:hover {
   opacity: 70%;
   text-decoration: underline;
 }
 
-#editorsPick img {
+.editorsPick img {
   width: 80px;
   padding: 0.5rem;
   float: left;
@@ -299,25 +299,25 @@ footer hr {
   transform: rotate(100deg);
 }
 
-#bookmark {
+.bookmark {
   position: relative;
   top: 8px;
   width: 25px;
   transition: opacity 0.2s;
 }
 
-#bookmark:hover {
+.bookmark:hover {
   opacity: 50%;
 }
 
-#chat {
+.chat {
   position: relative;
   top: 8px;
   width: 25px;
   transition: opacity 0.2s;
 }
 
-#chat:hover {
+.chat:hover {
   opacity: 25%;
 }
 
@@ -398,12 +398,12 @@ footer hr {
   font-weight: bolder;
 }
 
-#showing {
+.showing {
   color: grey;
   transition: opacity 0.3s;
 }
 
-#showing:hover {
+.showing:hover {
   opacity: 80%;
 }
 
@@ -476,12 +476,19 @@ footer hr {
 
 .plusIcon {
   border: 2px solid #000;
-  padding: 3px 10px 3px 10px;
   border-radius: 50%;
   transition: 0.3s;
   position: relative;
-  top: -70px;
-  left: 130px;
+  top: -80px;
+  left: 230px;
+  max-width: 15px;
+  max-height: 15px;
+  padding: 8px;
+}
+
+.plusIcon img{
+  max-width: 15px;
+  display: flex;
 }
 
 .plusIcon:hover {
@@ -489,13 +496,17 @@ footer hr {
   background-color: #000;
 }
 
-#extraTitle {
+.plusIcon img:hover {
+
+}
+
+.extraTitle {
   margin-right: 100px;
   color: #000;
   transition: opacity 0.3s;
 }
 
-#extraTitle:hover {
+.extraTitle:hover {
   opacity: 70%;
   text-decoration: underline;
 }
