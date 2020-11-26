@@ -249,6 +249,7 @@ header {
   padding-top: 5px;
   position: absolute;
   margin: 0 auto;
+  margin-left: -55px;
 }
 
 .topButton {
