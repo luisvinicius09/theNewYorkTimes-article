@@ -117,6 +117,13 @@ footer hr {
   transition: opacity 0.3s;
 }
 
+.fixedFooter a {
+  margin: 0;
+  padding: 10px;
+  color: #000;
+  transition: opacity 0.4s;
+}
+
 .footerMenu a:hover {
   opacity: 60%;
   text-decoration: underline;
@@ -615,13 +622,6 @@ header {
   justify-content: center;
   max-height: 40px;
   z-index: 1000;
-}
-
-.fixedFooter a {
-  margin: 0;
-  padding: 10px;
-  color: #000;
-  transition: opacity 0.4s;
 }
 
 .fixedFooter a:hover {
