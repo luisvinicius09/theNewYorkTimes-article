@@ -247,6 +247,8 @@ header {
 .logo {
   width: 250px;
   padding-top: 5px;
+  position: absolute;
+  margin: 0 auto;
 }
 
 .topButton {
