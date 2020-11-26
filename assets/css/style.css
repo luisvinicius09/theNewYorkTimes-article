@@ -639,3 +639,25 @@ header {
 .paragraph {
   font-size: 21px;
 }
+
+/* Styling the form */
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input {
+  font-family: 'Imperial', serif;
+  border-radius: 0.5em;
+}
+
+.form label {
+  font-family: 'Imperial', serif;
+}
+
+.form button {
+  position: relative;
+  left: 110px;
+  width: 150px;
+  border-radius: 0.5em;
+}
