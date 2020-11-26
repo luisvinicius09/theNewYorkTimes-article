@@ -640,22 +640,22 @@ header {
   font-size: 21px;
 }
 
-/*Styling the form*/
-.form{
+/* Styling the form */
+.form {
   display: flex;
   justify-content: space-between;
 }
 
-input{
+input {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 0.5em;
 }
 
-label{
+labe {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.form button{
+.form button {
   position: relative;
   left: 110px;
   width: 150px;
