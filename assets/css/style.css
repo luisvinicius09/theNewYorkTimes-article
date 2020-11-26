@@ -70,6 +70,10 @@ aside section {
   padding: 1rem;
 }
 
+.editorsPick {
+  max-width: 300px;
+}
+
 .editorsPick a {
   color: #000;
   font-size: medium;
