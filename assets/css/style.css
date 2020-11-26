@@ -80,6 +80,17 @@ aside section {
   transition: opacity 0.3s;
 }
 
+.editorsPick section {
+  max-height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.editorsPick hr {
+  border: 1px solid #000;
+  width: 100%;
+}
+
 .footerMenu {
   display: flex;
   justify-content: center;
