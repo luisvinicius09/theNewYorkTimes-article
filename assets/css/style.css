@@ -630,3 +630,12 @@ header {
   opacity: 70%;
   text-decoration: underline;
 }
+
+.extraDetail {
+  font-size: 21px;
+  max-width: 600px;
+}
+
+.paragraph {
+  font-size: 21px;
+}
