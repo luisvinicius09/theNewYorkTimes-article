@@ -639,3 +639,87 @@ header {
 .paragraph {
   font-size: 21px;
 }
+
+.formHeader {
+  text-decoration: underline;
+}
+
+.formContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.formQuestion {
+  max-width: 600px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formQuestion input {
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 8px;
+  height: 25px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.formQuestion textarea {
+  min-width: 588px;
+  max-width: 588px;
+  min-height: 50px;
+  max-height: 150px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 5px;
+}
+
+.checkbox input {
+  transform: scale(2);
+  position: relative;
+  left: 6px;
+  top: 6px;
+  cursor: pointer;
+}
+
+.formQuestion input:hover {
+  background-color: rgb(241, 233, 233);
+  border: 1px solid;
+}
+
+.selectInput {
+  height: 30px;
+  margin-top: 8px;
+  font-size: 15px;
+  padding: 0 5px 0 5px;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkbox {
+  margin: 8px 0 8px 0;
+}
+
+.submit {
+  margin-top: 30px;
+}
+
+.submit button {
+  font-size: large;
+  font-weight: bolder;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 100px;
+  color: #fff;
+  background: #567b95;
+  border: none;
+  border-radius: 8px;
+}
+
+.submit button:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
