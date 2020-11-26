@@ -70,6 +70,12 @@ aside section {
   padding: 1rem;
 }
 
+.editorsPick a {
+  color: #000;
+  font-size: medium;
+  transition: opacity 0.3s;
+}
+
 .footerMenu {
   display: flex;
   justify-content: center;
@@ -165,12 +171,6 @@ article span {
   margin-right: 1rem;
 }
 
-.editorsPick a {
-  color: #000;
-  font-size: medium;
-  transition: opacity 0.3s;
-}
-
 .editorsPick a:hover {
   opacity: 70%;
   text-decoration: underline;
@@ -180,6 +180,10 @@ article span {
   width: 80px;
   padding: 0.5rem;
   float: left;
+}
+
+.social {
+  display: flex;
 }
 
 header {
@@ -269,18 +273,20 @@ footer hr {
   justify-content: space-between;
 }
 
-.social {
-  height: 40px;
-}
-
 .icons {
+  width: 15px;
   background-color: #eee;
   margin: 5px;
-  padding: 8px 10px;
+  padding: 15px 15px 15px 15px;
   border-radius: 50%;
   transition: background-color 0.4s;
   border: 1px solid #eee;
   position: relative;
+}
+
+.icons img {
+  max-width: 15px;
+  max-height: auto;
 }
 
 .icons:hover {
@@ -288,11 +294,9 @@ footer hr {
   border: 1px solid rgb(129, 129, 129);
 }
 
-.social .iconsImg {
+.iconsImg {
   width: 17px;
-  position: relative;
-  left: 1px;
-  top: 3px;
+  display: flex;
 }
 
 .curvedArrow {
@@ -301,7 +305,7 @@ footer hr {
 
 .bookmark {
   position: relative;
-  top: 8px;
+  top: 15px;
   width: 25px;
   transition: opacity 0.2s;
 }
@@ -312,7 +316,7 @@ footer hr {
 
 .chat {
   position: relative;
-  top: 8px;
+  top: 15px;
   width: 25px;
   transition: opacity 0.2s;
 }
@@ -441,6 +445,8 @@ footer hr {
 }
 
 .btn {
+  width: 400px;
+  height: 50px;
   border-radius: 0.5em;
   background-color: #567b95;
   font-size: 16px;
@@ -450,6 +456,7 @@ footer hr {
   transition: background 0.3s;
   margin: 1rem;
   color: #fff;
+  margin-top: 35px;
 }
 
 .btn:hover {
@@ -486,7 +493,7 @@ footer hr {
   padding: 8px;
 }
 
-.plusIcon img{
+.plusIcon img {
   max-width: 15px;
   display: flex;
 }
@@ -494,10 +501,6 @@ footer hr {
 .plusIcon:hover {
   color: #fff;
   background-color: #000;
-}
-
-.plusIcon img:hover {
-
 }
 
 .extraTitle {
